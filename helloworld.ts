@@ -16,3 +16,7 @@ class HelloWorld {
 
 const myHelloClassInstance = new HelloWorld('Isaac' , 'Garcia');
 myHelloClassInstance.sayHello();
+
+greet() {
+    console.log('Isaac Garcia');
+}
