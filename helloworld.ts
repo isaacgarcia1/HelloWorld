@@ -9,14 +9,10 @@ class HelloWorld {
     }
 
     sayHello() {
-        console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName);
+        console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName + '.');
     }
 
 }
 
 const myHelloClassInstance = new HelloWorld('Isaac' , 'Garcia');
 myHelloClassInstance.sayHello();
-
-greet() {
-    console.log('Isaac Garcia');
-}
